@@ -12,18 +12,18 @@ typedef struct{
     char rg[tam];
     int id;
 } 
-Cliente[tam];
-Cliente cliente;
+Cliente;
 
 typedef struct{
     char origem[tam];
     char destino[tam];
 }
-Passageiro[tam];
-Passageiro passageiro;
+Passageiro;
 
-void fornecerInteracao();
-void cadastrarCliente(int *numeroClientes);
-void venderPassagem(int *numeroClientes);
+void fornecerInteracao(int *numeroClientes, Cliente **cliente);
+void cadastrarCliente(int *numeroClientes, Cliente **cliente);
+void venderPassagem(int *numeroClientes, Cliente **cliente);
+void efetuarVenda();
 void vizualizarocupacao();
+
 

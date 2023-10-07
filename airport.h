@@ -23,7 +23,7 @@ Passageiro[tam];
 Passageiro passageiro;
 
 void fornecerInteracao();
-void cadastrarCliente();
-void venderPassagem();
+void cadastrarCliente(int *numeroClientes);
+void venderPassagem(int *numeroClientes);
 void vizualizarocupacao();
 
